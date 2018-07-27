@@ -2,6 +2,7 @@ package com.example.android.mathquiz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -133,9 +134,23 @@ public class MainActivity extends AppCompatActivity {
     }
     //Game Summary called when player clicks submit
     private String gameSummary(int score, String playerName){
+       // imageView.setBackgroundResource(R.drawable.my_image);
+       // imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+
+        //Toast toast = Toast.makeText(test.this,"bbb", Toast.LENGTH_LONG);
+        //toast.setGravity(Gravity.CENTER, 0, 0);
+        //toast.show();
+
         String scoreMessage = "Well done " + playerName + "!" + "\nYour score is : \n" + score + " out of 10!";
-        Toast.makeText(this, "Well done "+ playerName + "!" +
-                "\nYour score is : " + score + " out of 10!", Toast.LENGTH_LONG).show();
+        Toast toast = Toast.makeText(this, "Well done "+ playerName + "!" +
+                        "\nYour score is : " + score + " out of 10!", Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.show();
+
+
+       // Toast.makeText(this, "Well done "+ playerName + "!" +
+               // "\nYour score is : " + score + " out of 10!", Toast.LENGTH_LONG).show();
+
         return scoreMessage;
     }
 
