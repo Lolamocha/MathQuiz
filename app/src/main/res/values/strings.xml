@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name"> Math Quiz</string>
+    <string name="math_quiz">Math Quiz</string>
+    <string name="_248_62">248+62 = ?</string>
+    <string name="_144_4">144/4 = ?</string>
+    <string name="_120_20">120/20 = ?</string>
+    <string name="_25">25 ?</string>
+    <string name="A_correct_answer1">A correct answer 1</string>
+    <string name="_310">310</string>
+    <string name="_312">312</string>
+    <string name="_298">298</string>
+    <string name="_28">28</string>
+    <string name="_40">40</string>
+    <string name="_36">36</string>
+    <string name="_8">8</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_25_25">25 = 25</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="_25_6"><![CDATA[25 > 6]]></string>
+    <string name="gameSummary">gameSummary</string>
+    <string name="_25_1">25*1</string>
+    <string name="_125_5">125/5</string>
+    <string name="enter_name">Enter Name</string>
+</resources>
