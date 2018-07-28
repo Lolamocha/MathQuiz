@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
     //This string is called to show the game summary
     private void displayMessage(String message) {
         TextView gameSummary = findViewById(R.id.game_summary);
+        gameSummary.setGravity(Gravity.CENTER);
         gameSummary.setText(message);
     }
     //This method calculates the score
@@ -142,6 +143,9 @@ public class MainActivity extends AppCompatActivity {
         //toast.show();
 
         String scoreMessage = "Well done " + playerName + "!" + "\nYour score is : \n" + score + " out of 10!";
+       // scoreMessage.setGravity(Gravity.CENTER, 0, 0);
+
+        
         Toast toast = Toast.makeText(this, "Well done "+ playerName + "!" +
                         "\nYour score is : " + score + " out of 10!", Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER, 0, 0);

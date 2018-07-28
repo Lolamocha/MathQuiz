@@ -32,7 +32,7 @@
             android:inputType="textCapWords"
             android:textColor="#ab47bc"
             android:textColorHint="#ab47bc"
-            android:textSize="20sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
 
